@@ -1,4 +1,6 @@
 .hd-container {
+  max-width: 1260px;
+  width: 100%;
   background-color: var(--color-bg-header);
 }
 
