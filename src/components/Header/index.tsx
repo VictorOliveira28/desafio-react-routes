@@ -1,5 +1,6 @@
 import "./styles.css";
 import imgHome from "../../../assets/home.svg";
+import { Outlet } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -16,6 +17,7 @@ export default function Header() {
           </div>
         </nav>
       </header>
+      <Outlet />
     </>
   );
 }
