@@ -2,10 +2,10 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./index.css";
 import MainPage from "./routes/MainPage";
 import Header from "./components/Header";
-import ProductsPage from "./routes/MainPage/ProductsPage";
-import ComputersPage from "./routes/MainPage/ProductsPage/ComputersPage";
-import BooksPage from "./routes/MainPage/ProductsPage/BooksPage";
-import ElectronicsPage from "./routes/MainPage/ProductsPage/ElectronicsPage";
+import ProductsPage from "./routes/ProductsPage";
+import ComputersPage from "./routes/ProductsPage/ComputersPage";
+import BooksPage from "./routes/ProductsPage/BooksPage";
+import ElectronicsPage from "./routes/ProductsPage/ElectronicsPage";
 import AboutUs from "./routes/AboutUs";
 import NotFound from "./routes/NotFound";
 
