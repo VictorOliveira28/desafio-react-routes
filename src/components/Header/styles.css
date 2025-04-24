@@ -18,3 +18,13 @@
   display: flex;
   gap: 20px;
 }
+
+.nav-active {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-disabled {
+  color: #fff;
+  font-weight: 400;
+}

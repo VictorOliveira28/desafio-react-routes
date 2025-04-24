@@ -4,7 +4,9 @@ export default function AboutUs() {
   return (
     <>
       <main>
-        <h2>Sobre nós</h2>
+        <div>
+          <h2>Sobre nós</h2>
+        </div>
       </main>
     </>
   );
