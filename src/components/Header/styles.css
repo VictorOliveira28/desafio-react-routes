@@ -19,12 +19,12 @@
   gap: 20px;
 }
 
-.nav-active {
+.hd-nav-active {
   color: #fff;
   font-weight: 700;
 }
 
-.nav-disabled {
+.hd-nav-disabled {
   color: #fff;
   font-weight: 400;
 }

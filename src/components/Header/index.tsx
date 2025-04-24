@@ -12,7 +12,7 @@ export default function Header() {
             <NavLink
               end
               className={({ isActive }) =>
-                isActive ? "nav-active" : "nav-disabled"
+                isActive ? "hd-nav-active" : "hd-nav-disabled"
               }
               to={"/"}
             >
@@ -21,7 +21,7 @@ export default function Header() {
 
             <NavLink
               className={({ isActive }) =>
-                isActive ? "nav-active" : "nav-disabled"
+                isActive ? "hd-nav-active" : "hd-nav-disabled"
               }
               to={"/produtos"}
             >
@@ -30,7 +30,7 @@ export default function Header() {
 
             <NavLink
               className={({ isActive }) =>
-                isActive ? "nav-active" : "nav-disabled"
+                isActive ? "hd-nav-active" : "hd-nav-disabled"
               }
               to={"/sobre-nos"}
             >
@@ -40,7 +40,7 @@ export default function Header() {
 
           <NavLink
             className={({ isActive }) =>
-              isActive ? "nav-active" : "nav-disabled"
+              isActive ? "hd-nav-active" : "hd-nav-disabled"
             }
             to={"/"}
           >
