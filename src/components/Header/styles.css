@@ -1,0 +1,18 @@
+.hd-container {
+  background-color: var(--color-bg-header);
+}
+
+.nav-hd-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  font-size: 16px;
+  padding: 0 160px;
+  color: var(--color-font-header);
+}
+
+.nav-menu-container {
+  display: flex;
+  gap: 20px;
+}
